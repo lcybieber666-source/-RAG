@@ -1,0 +1,13 @@
+<script setup lang="ts">
+import AppLayout from '@/components/layout/AppLayout.vue'
+</script>
+
+<template>
+  <AppLayout>
+    <RouterView v-slot="{ Component }">
+      <Transition name="fade" mode="out-in">
+        <component :is="Component" />
+      </Transition>
+    </RouterView>
+  </AppLayout>
+</template>

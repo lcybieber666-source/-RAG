@@ -1,0 +1,9 @@
+.git
+.idea
+.pytest_cache
+**/__pycache__
+**/*.pyc
+frontend/node_modules
+frontend/dist
+integrated_qa_system/logs
+数据文档（不是代码用的）
